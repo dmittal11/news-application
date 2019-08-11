@@ -1,0 +1,71 @@
+API KEY - 896f3f0ae39e4f4393033aad46954f6d 
+
+criteria
+----------
+
+Page - code - one file that renders the API
+---------------
+1) Create the basic webpage using flexbox and bootstrap. We want to add the Navbar.(When app loads, Top headlines in UK are displayed: 
+https://newsapi.org/v2/sources?apiKey=896f3f0ae39e4f4393033aad46954f6d)
+
+    Navbar: 
+             - Home Icon - Allows the main page to be redirected 
+             - Drop down menu for attribute to search, - Search Bar - code: search API  
+             - Top Headlines  - code - search API
+                Search Criteria: 
+                                                       - Country 
+                                                       - Sources 
+                                                       - Category 
+                                                       - KeyWords     
+
+             - Everything - code - Search API 
+                Search Criteria:                       - Keywords 
+                                                       - popularity between dates - calender option 
+                                                       - certain Articles - multiple 
+                                                          
+             - Sources(Default: displays all news articles) when clicked - code - Search API
+                Search Criteria:                     
+                                                       - Language 
+                                                       - Country 
+
+2) The top headlines are always displayed at the top. - code - Search API
+
+
+    Desktop
+--------------------
+
+First: Build card, then map, so when page loads data is displayed, Display: topheadlines within the uk 
+
+See Photos for clarification 
+
+1) Build Components: 
+                - Navbar: - Top Headlines 
+                          - Everything 
+                          - Sources 
+
+                - Search(certain element rendered according to the search criteria): - Top Headlines 
+                                                                                     - Everything 
+                                                                                     - Sources 
+
+                - Build Card showing news article summary 
+
+2) Make sure criteria above and the word document Usman has sent has been met. 
+
+
+
+    Mobile, looks good on most if not all devices... (logic should remain the same)
+------------------------------------------------------------------------------------
+See Photos for clarification 
+
+1) Build Components: 
+                - Navbar: - Top Headlines 
+                          - Everything 
+                          - Sources 
+
+                - Search(certain element rendered according to the search criteria): - Top Headlines 
+                                                                                     - Everything 
+                                                                                     - Sources 
+
+                - Build Card showing news article summary 
+
+2) Make sure criteria above and the word document Usman has sent has been met. 
